@@ -1,5 +1,6 @@
 import 'package:deli_meals/screens/categories_screen.dart';
 import 'package:deli_meals/screens/category_meals_screen.dart';
+import 'package:deli_meals/screens/meal_details_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -32,6 +33,7 @@ class MyApp extends StatelessWidget {
       home: CategoriesScreen(),
       routes: {
         CategoryMealsScreen.routeName: (ctx) => CategoryMealsScreen(),
+        MealDetailsScreen.routeName: (ctx) => MealDetailsScreen()
       },
     );
   }
